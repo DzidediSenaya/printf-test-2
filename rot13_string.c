@@ -12,6 +12,8 @@ int rot13_str(char *r)
 	char deuxieme[52]  = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 	int j, i = 0, str = 0;
 
+	while (*r != '\0')
+
 	{
 		if ((r[i] >= 'A' && r[i] <= 'Z') || (r[i] >= 'a' && r[i] <= 'z'))
 		{
