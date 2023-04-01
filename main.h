@@ -3,11 +3,13 @@
 
 #include <stdarg.h>
 #include <stdlib.h>
+#include <stdint.h>
 
 int _printf(const char *format, ...);
 int _putchar(char c);
 int _printfunction(const char *format, ...);
 int _printchar(va_list arg_list);
+int print_int(int i);
 
 typedef struct form_spec
 {
